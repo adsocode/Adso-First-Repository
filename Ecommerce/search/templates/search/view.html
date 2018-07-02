@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <p style="color:white">Searched for <b><i>{{ query_context }}</i></b></p>
+        </div>
+    </div>
+    <div class="row">
+        {% for obj in object_list %}
+            <div class="col-lg-4">
+            <br>{% include 'snippets/card.html' with instance=obj %}<br>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
+

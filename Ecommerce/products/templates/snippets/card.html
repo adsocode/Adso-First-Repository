@@ -1,0 +1,16 @@
+<div class="card" style="width: 18rem;">
+    {% if instance.image %}
+    <a href="{{ instance.get_absolute_url }}" >
+    <img class="card-img-top" src="{{ instance.image.url }}" alt="Card image cap">
+    </a>
+    {% endif %}
+  <div class="card-body">
+    <h5 class="card-title">{{ instance.title }}</h5>
+    <p class="card-text">{{ instance.description|linebreaks|truncatewords:20}}</p>
+    <a href="{{ instance.get_absolute_url }}" class="btn btn-primary">Visit</a>
+
+    {% comment %} <a href="{% url 'name_detail' slug=instance.slug %}" class="btn btn-success">Check It</a>  # its Reverse URL, that is give the name of the URL {% endcomment %}
+    <a href="{% url 'namespace_products:name_detail' slug=instance.slug %}" class="btn btn-success">Check It</a>    
+    {% comment %} "namespace_products:name_detail" simply refers to the "detail.html" that signifies namespace with name -> "namespace_products" has a url with name "name_detail" that needs to be renderec  {% endcomment %}
+  </div>
+</div>

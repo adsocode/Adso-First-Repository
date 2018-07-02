@@ -1,0 +1,668 @@
+Microsoft Windows [Version 10.0.16299.431]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+C:\Users\ADSO>E:
+
+E:\>cd E:\CodeForEntre\Projects\Ecommerce\EcommerceEnvironment\Scripts
+
+E:\CodeForEntre\Projects\Ecommerce\EcommerceEnvironment\Scripts>cd Ecommerce
+
+E:\CodeForEntre\Projects\Ecommerce\EcommerceEnvironment\Scripts\Ecommerce>dir
+ Volume in drive E is ADSO
+ Volume Serial Number is 464E-FB34
+
+ Directory of E:\CodeForEntre\Projects\Ecommerce\EcommerceEnvironment\Scripts\Ecommerce
+
+07/02/2018  11:21 AM    <DIR>          .
+07/02/2018  11:21 AM    <DIR>          ..
+06/22/2018  11:24 AM    <DIR>          carts
+06/26/2018  12:19 PM           196,608 db.sqlite3
+05/16/2018  11:40 AM    <DIR>          ecommerce
+06/14/2018  10:34 AM            14,903 ecommerce_sublime.sublime-workspace
+05/06/2018  05:47 PM               829 manage.py
+05/12/2018  01:17 PM    <DIR>          products
+05/15/2018  11:44 AM    <DIR>          search
+05/08/2018  12:01 PM    <DIR>          static_myproject
+05/16/2018  11:16 AM    <DIR>          tags
+05/13/2018  01:51 AM    <DIR>          templates
+               3 File(s)        212,340 bytes
+               9 Dir(s)  312,529,178,624 bytes free
+
+E:\CodeForEntre\Projects\Ecommerce\EcommerceEnvironment\Scripts\Ecommerce>help
+For more information on a specific command, type HELP command-name
+ASSOC          Displays or modifies file extension associations.
+ATTRIB         Displays or changes file attributes.
+BREAK          Sets or clears extended CTRL+C checking.
+BCDEDIT        Sets properties in boot database to control boot loading.
+CACLS          Displays or modifies access control lists (ACLs) of files.
+CALL           Calls one batch program from another.
+CD             Displays the name of or changes the current directory.
+CHCP           Displays or sets the active code page number.
+CHDIR          Displays the name of or changes the current directory.
+CHKDSK         Checks a disk and displays a status report.
+CHKNTFS        Displays or modifies the checking of disk at boot time.
+CLS            Clears the screen.
+CMD            Starts a new instance of the Windows command interpreter.
+COLOR          Sets the default console foreground and background colors.
+COMP           Compares the contents of two files or sets of files.
+COMPACT        Displays or alters the compression of files on NTFS partitions.
+CONVERT        Converts FAT volumes to NTFS.  You cannot convert the
+               current drive.
+COPY           Copies one or more files to another location.
+DATE           Displays or sets the date.
+DEL            Deletes one or more files.
+DIR            Displays a list of files and subdirectories in a directory.
+DISKPART       Displays or configures Disk Partition properties.
+DOSKEY         Edits command lines, recalls Windows commands, and
+               creates macros.
+DRIVERQUERY    Displays current device driver status and properties.
+ECHO           Displays messages, or turns command echoing on or off.
+ENDLOCAL       Ends localization of environment changes in a batch file.
+ERASE          Deletes one or more files.
+EXIT           Quits the CMD.EXE program (command interpreter).
+FC             Compares two files or sets of files, and displays the
+               differences between them.
+FIND           Searches for a text string in a file or files.
+FINDSTR        Searches for strings in files.
+FOR            Runs a specified command for each file in a set of files.
+FORMAT         Formats a disk for use with Windows.
+FSUTIL         Displays or configures the file system properties.
+FTYPE          Displays or modifies file types used in file extension
+               associations.
+GOTO           Directs the Windows command interpreter to a labeled line in
+               a batch program.
+GPRESULT       Displays Group Policy information for machine or user.
+GRAFTABL       Enables Windows to display an extended character set in
+               graphics mode.
+HELP           Provides Help information for Windows commands.
+ICACLS         Display, modify, backup, or restore ACLs for files and
+               directories.
+IF             Performs conditional processing in batch programs.
+LABEL          Creates, changes, or deletes the volume label of a disk.
+MD             Creates a directory.
+MKDIR          Creates a directory.
+MKLINK         Creates Symbolic Links and Hard Links
+MODE           Configures a system device.
+MORE           Displays output one screen at a time.
+MOVE           Moves one or more files from one directory to another
+               directory.
+OPENFILES      Displays files opened by remote users for a file share.
+PATH           Displays or sets a search path for executable files.
+PAUSE          Suspends processing of a batch file and displays a message.
+POPD           Restores the previous value of the current directory saved by
+               PUSHD.
+PRINT          Prints a text file.
+PROMPT         Changes the Windows command prompt.
+PUSHD          Saves the current directory then changes it.
+RD             Removes a directory.
+RECOVER        Recovers readable information from a bad or defective disk.
+REM            Records comments (remarks) in batch files or CONFIG.SYS.
+REN            Renames a file or files.
+RENAME         Renames a file or files.
+REPLACE        Replaces files.
+RMDIR          Removes a directory.
+ROBOCOPY       Advanced utility to copy files and directory trees
+SET            Displays, sets, or removes Windows environment variables.
+SETLOCAL       Begins localization of environment changes in a batch file.
+SC             Displays or configures services (background processes).
+SCHTASKS       Schedules commands and programs to run on a computer.
+SHIFT          Shifts the position of replaceable parameters in batch files.
+SHUTDOWN       Allows proper local or remote shutdown of machine.
+SORT           Sorts input.
+START          Starts a separate window to run a specified program or command.
+SUBST          Associates a path with a drive letter.
+SYSTEMINFO     Displays machine specific properties and configuration.
+TASKLIST       Displays all currently running tasks including services.
+TASKKILL       Kill or stop a running process or application.
+TIME           Displays or sets the system time.
+TITLE          Sets the window title for a CMD.EXE session.
+TREE           Graphically displays the directory structure of a drive or
+               path.
+TYPE           Displays the contents of a text file.
+VER            Displays the Windows version.
+VERIFY         Tells Windows whether to verify that your files are written
+               correctly to a disk.
+VOL            Displays a disk volume label and serial number.
+XCOPY          Copies files and directory trees.
+WMIC           Displays WMI information inside interactive command shell.
+
+For more information on tools see the command-line reference in the online help.
+
+E:\CodeForEntre\Projects\Ecommerce\EcommerceEnvironment\Scripts\Ecommerce>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        carts/
+        db.sqlite3
+        ecommerce/
+        ecommerce_sublime.sublime-workspace
+        manage.py
+        products/
+        search/
+        static_myproject/
+        tags/
+        templates/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+E:\CodeForEntre\Projects\Ecommerce\EcommerceEnvironment\Scripts\Ecommerce>git help
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+
+E:\CodeForEntre\Projects\Ecommerce\EcommerceEnvironment\Scripts\Ecommerce>git rm .git
+fatal: pathspec '.git' did not match any files
+
+E:\CodeForEntre\Projects\Ecommerce\EcommerceEnvironment\Scripts\Ecommerce>git rm
+usage: git rm [<options>] [--] <file>...
+
+    -n, --dry-run         dry run
+    -q, --quiet           do not list removed files
+    --cached              only remove from the index
+    -f, --force           override the up-to-date check
+    -r                    allow recursive removal
+    --ignore-unmatch      exit with a zero status even if nothing matched
+
+
+E:\CodeForEntre\Projects\Ecommerce\EcommerceEnvironment\Scripts\Ecommerce>rm -rf git
+'rm' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\CodeForEntre\Projects\Ecommerce\EcommerceEnvironment\Scripts\Ecommerce>rm -rf .git
+'rm' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\CodeForEntre\Projects\Ecommerce\EcommerceEnvironment\Scripts\Ecommerce>help
+For more information on a specific command, type HELP command-name
+ASSOC          Displays or modifies file extension associations.
+ATTRIB         Displays or changes file attributes.
+BREAK          Sets or clears extended CTRL+C checking.
+BCDEDIT        Sets properties in boot database to control boot loading.
+CACLS          Displays or modifies access control lists (ACLs) of files.
+CALL           Calls one batch program from another.
+CD             Displays the name of or changes the current directory.
+CHCP           Displays or sets the active code page number.
+CHDIR          Displays the name of or changes the current directory.
+CHKDSK         Checks a disk and displays a status report.
+CHKNTFS        Displays or modifies the checking of disk at boot time.
+CLS            Clears the screen.
+CMD            Starts a new instance of the Windows command interpreter.
+COLOR          Sets the default console foreground and background colors.
+COMP           Compares the contents of two files or sets of files.
+COMPACT        Displays or alters the compression of files on NTFS partitions.
+CONVERT        Converts FAT volumes to NTFS.  You cannot convert the
+               current drive.
+COPY           Copies one or more files to another location.
+DATE           Displays or sets the date.
+DEL            Deletes one or more files.
+DIR            Displays a list of files and subdirectories in a directory.
+DISKPART       Displays or configures Disk Partition properties.
+DOSKEY         Edits command lines, recalls Windows commands, and
+               creates macros.
+DRIVERQUERY    Displays current device driver status and properties.
+ECHO           Displays messages, or turns command echoing on or off.
+ENDLOCAL       Ends localization of environment changes in a batch file.
+ERASE          Deletes one or more files.
+EXIT           Quits the CMD.EXE program (command interpreter).
+FC             Compares two files or sets of files, and displays the
+               differences between them.
+FIND           Searches for a text string in a file or files.
+FINDSTR        Searches for strings in files.
+FOR            Runs a specified command for each file in a set of files.
+FORMAT         Formats a disk for use with Windows.
+FSUTIL         Displays or configures the file system properties.
+FTYPE          Displays or modifies file types used in file extension
+               associations.
+GOTO           Directs the Windows command interpreter to a labeled line in
+               a batch program.
+GPRESULT       Displays Group Policy information for machine or user.
+GRAFTABL       Enables Windows to display an extended character set in
+               graphics mode.
+HELP           Provides Help information for Windows commands.
+ICACLS         Display, modify, backup, or restore ACLs for files and
+               directories.
+IF             Performs conditional processing in batch programs.
+LABEL          Creates, changes, or deletes the volume label of a disk.
+MD             Creates a directory.
+MKDIR          Creates a directory.
+MKLINK         Creates Symbolic Links and Hard Links
+MODE           Configures a system device.
+MORE           Displays output one screen at a time.
+MOVE           Moves one or more files from one directory to another
+               directory.
+OPENFILES      Displays files opened by remote users for a file share.
+PATH           Displays or sets a search path for executable files.
+PAUSE          Suspends processing of a batch file and displays a message.
+POPD           Restores the previous value of the current directory saved by
+               PUSHD.
+PRINT          Prints a text file.
+PROMPT         Changes the Windows command prompt.
+PUSHD          Saves the current directory then changes it.
+RD             Removes a directory.
+RECOVER        Recovers readable information from a bad or defective disk.
+REM            Records comments (remarks) in batch files or CONFIG.SYS.
+REN            Renames a file or files.
+RENAME         Renames a file or files.
+REPLACE        Replaces files.
+RMDIR          Removes a directory.
+ROBOCOPY       Advanced utility to copy files and directory trees
+SET            Displays, sets, or removes Windows environment variables.
+SETLOCAL       Begins localization of environment changes in a batch file.
+SC             Displays or configures services (background processes).
+SCHTASKS       Schedules commands and programs to run on a computer.
+SHIFT          Shifts the position of replaceable parameters in batch files.
+SHUTDOWN       Allows proper local or remote shutdown of machine.
+SORT           Sorts input.
+START          Starts a separate window to run a specified program or command.
+SUBST          Associates a path with a drive letter.
+SYSTEMINFO     Displays machine specific properties and configuration.
+TASKLIST       Displays all currently running tasks including services.
+TASKKILL       Kill or stop a running process or application.
+TIME           Displays or sets the system time.
+TITLE          Sets the window title for a CMD.EXE session.
+TREE           Graphically displays the directory structure of a drive or
+               path.
+TYPE           Displays the contents of a text file.
+VER            Displays the Windows version.
+VERIFY         Tells Windows whether to verify that your files are written
+               correctly to a disk.
+VOL            Displays a disk volume label and serial number.
+XCOPY          Copies files and directory trees.
+WMIC           Displays WMI information inside interactive command shell.
+
+For more information on tools see the command-line reference in the online help.
+
+E:\CodeForEntre\Projects\Ecommerce\EcommerceEnvironment\Scripts\Ecommerce>del .git
+E:\CodeForEntre\Projects\Ecommerce\EcommerceEnvironment\Scripts\Ecommerce\.git\*, Are you sure (Y/N)? Y
+
+E:\CodeForEntre\Projects\Ecommerce\EcommerceEnvironment\Scripts\Ecommerce>git init
+Initialized empty Git repository in E:/CodeForEntre/Projects/Ecommerce/EcommerceEnvironment/Scripts/Ecommerce/.git/
+
+E:\CodeForEntre\Projects\Ecommerce\EcommerceEnvironment\Scripts\Ecommerce>del .git
+E:\CodeForEntre\Projects\Ecommerce\EcommerceEnvironment\Scripts\Ecommerce\.git\*, Are you sure (Y/N)? y
+
+E:\CodeForEntre\Projects\Ecommerce\EcommerceEnvironment\Scripts\Ecommerce>cd..
+
+E:\CodeForEntre\Projects\Ecommerce\EcommerceEnvironment\Scripts>git init
+Initialized empty Git repository in E:/CodeForEntre/Projects/Ecommerce/EcommerceEnvironment/Scripts/.git/
+
+E:\CodeForEntre\Projects\Ecommerce\EcommerceEnvironment\Scripts>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        Ecommerce/
+        __pycache__/
+        activate
+        activate.bat
+        activate.ps1
+        activate_this.py
+        deactivate.bat
+        django-admin.exe
+        django-admin.py
+        easy_install-3.6.exe
+        easy_install.exe
+        pip.exe
+        pip3.6.exe
+        pip3.exe
+        python.exe
+        python36.dll
+        pythonw.exe
+        static_cdn/
+        wheel.exe
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+E:\CodeForEntre\Projects\Ecommerce\EcommerceEnvironment\Scripts>.gitignore
+'.gitignore' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\CodeForEntre\Projects\Ecommerce\EcommerceEnvironment\Scripts> > .gitignore
+The syntax of the command is incorrect.
+
+E:\CodeForEntre\Projects\Ecommerce\EcommerceEnvironment\Scripts>adso > .gitignore
+'adso' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\CodeForEntre\Projects\Ecommerce\EcommerceEnvironment\Scripts>nul > .gitignore
+Access is denied.
+
+E:\CodeForEntre\Projects\Ecommerce\EcommerceEnvironment\Scripts>dirt
+'dirt' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\CodeForEntre\Projects\Ecommerce\EcommerceEnvironment\Scripts>dir
+ Volume in drive E is ADSO
+ Volume Serial Number is 464E-FB34
+
+ Directory of E:\CodeForEntre\Projects\Ecommerce\EcommerceEnvironment\Scripts
+
+07/02/2018  11:42 AM    <DIR>          .
+07/02/2018  11:42 AM    <DIR>          ..
+07/02/2018  11:42 AM                 0 .gitignore
+05/06/2018  01:50 PM             2,245 activate
+05/06/2018  01:50 PM               807 activate.bat
+05/06/2018  01:50 PM             8,325 activate.ps1
+05/06/2018  01:50 PM             1,137 activate_this.py
+05/06/2018  01:50 PM               508 deactivate.bat
+05/06/2018  01:54 PM            93,118 django-admin.exe
+05/06/2018  01:54 PM               184 django-admin.py
+05/06/2018  01:50 PM            89,501 easy_install-3.6.exe
+05/06/2018  01:50 PM            89,501 easy_install.exe
+07/02/2018  11:21 AM    <DIR>          Ecommerce
+05/06/2018  01:50 PM            89,483 pip.exe
+05/06/2018  01:50 PM            89,483 pip3.6.exe
+05/06/2018  01:50 PM            89,483 pip3.exe
+05/06/2018  01:50 PM            97,944 python.exe
+05/06/2018  01:50 PM         3,297,944 python36.dll
+05/06/2018  01:50 PM            96,408 pythonw.exe
+05/08/2018  11:59 AM    <DIR>          static_cdn
+05/06/2018  01:50 PM            89,480 wheel.exe
+05/06/2018  01:54 PM    <DIR>          __pycache__
+              17 File(s)      4,135,551 bytes
+               5 Dir(s)  312,529,137,664 bytes free
+
+E:\CodeForEntre\Projects\Ecommerce\EcommerceEnvironment\Scripts>del .gitignore
+
+E:\CodeForEntre\Projects\Ecommerce\EcommerceEnvironment\Scripts>dir
+ Volume in drive E is ADSO
+ Volume Serial Number is 464E-FB34
+
+ Directory of E:\CodeForEntre\Projects\Ecommerce\EcommerceEnvironment\Scripts
+
+07/02/2018  11:43 AM    <DIR>          .
+07/02/2018  11:43 AM    <DIR>          ..
+05/06/2018  01:50 PM             2,245 activate
+05/06/2018  01:50 PM               807 activate.bat
+05/06/2018  01:50 PM             8,325 activate.ps1
+05/06/2018  01:50 PM             1,137 activate_this.py
+05/06/2018  01:50 PM               508 deactivate.bat
+05/06/2018  01:54 PM            93,118 django-admin.exe
+05/06/2018  01:54 PM               184 django-admin.py
+05/06/2018  01:50 PM            89,501 easy_install-3.6.exe
+05/06/2018  01:50 PM            89,501 easy_install.exe
+07/02/2018  11:21 AM    <DIR>          Ecommerce
+05/06/2018  01:50 PM            89,483 pip.exe
+05/06/2018  01:50 PM            89,483 pip3.6.exe
+05/06/2018  01:50 PM            89,483 pip3.exe
+05/06/2018  01:50 PM            97,944 python.exe
+05/06/2018  01:50 PM         3,297,944 python36.dll
+05/06/2018  01:50 PM            96,408 pythonw.exe
+05/08/2018  11:59 AM    <DIR>          static_cdn
+05/06/2018  01:50 PM            89,480 wheel.exe
+05/06/2018  01:54 PM    <DIR>          __pycache__
+              16 File(s)      4,135,551 bytes
+               5 Dir(s)  312,529,137,664 bytes free
+
+E:\CodeForEntre\Projects\Ecommerce\EcommerceEnvironment\Scripts>cd > .gitignore
+
+E:\CodeForEntre\Projects\Ecommerce\EcommerceEnvironment\Scripts>dir
+ Volume in drive E is ADSO
+ Volume Serial Number is 464E-FB34
+
+ Directory of E:\CodeForEntre\Projects\Ecommerce\EcommerceEnvironment\Scripts
+
+07/02/2018  11:43 AM    <DIR>          .
+07/02/2018  11:43 AM    <DIR>          ..
+07/02/2018  11:43 AM                65 .gitignore
+05/06/2018  01:50 PM             2,245 activate
+05/06/2018  01:50 PM               807 activate.bat
+05/06/2018  01:50 PM             8,325 activate.ps1
+05/06/2018  01:50 PM             1,137 activate_this.py
+05/06/2018  01:50 PM               508 deactivate.bat
+05/06/2018  01:54 PM            93,118 django-admin.exe
+05/06/2018  01:54 PM               184 django-admin.py
+05/06/2018  01:50 PM            89,501 easy_install-3.6.exe
+05/06/2018  01:50 PM            89,501 easy_install.exe
+07/02/2018  11:21 AM    <DIR>          Ecommerce
+05/06/2018  01:50 PM            89,483 pip.exe
+05/06/2018  01:50 PM            89,483 pip3.6.exe
+05/06/2018  01:50 PM            89,483 pip3.exe
+05/06/2018  01:50 PM            97,944 python.exe
+05/06/2018  01:50 PM         3,297,944 python36.dll
+05/06/2018  01:50 PM            96,408 pythonw.exe
+05/08/2018  11:59 AM    <DIR>          static_cdn
+05/06/2018  01:50 PM            89,480 wheel.exe
+05/06/2018  01:54 PM    <DIR>          __pycache__
+              17 File(s)      4,135,616 bytes
+               5 Dir(s)  312,529,137,664 bytes free
+
+E:\CodeForEntre\Projects\Ecommerce\EcommerceEnvironment\Scripts>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .gitignore
+        Ecommerce/
+        activate
+        activate.bat
+        activate.ps1
+        activate_this.py
+        deactivate.bat
+        django-admin.exe
+        django-admin.py
+        easy_install-3.6.exe
+        easy_install.exe
+        pip.exe
+        pip3.6.exe
+        pip3.exe
+        python.exe
+        python36.dll
+        pythonw.exe
+        static_cdn/
+        wheel.exe
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+E:\CodeForEntre\Projects\Ecommerce\EcommerceEnvironment\Scripts>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .gitignore
+        Ecommerce/
+        activate.bat
+        activate.ps1
+        activate_this.py
+        deactivate.bat
+        django-admin.exe
+        django-admin.py
+        easy_install-3.6.exe
+        easy_install.exe
+        pip.exe
+        pip3.6.exe
+        pip3.exe
+        python.exe
+        python36.dll
+        pythonw.exe
+        static_cdn/
+        wheel.exe
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+E:\CodeForEntre\Projects\Ecommerce\EcommerceEnvironment\Scripts>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .gitignore
+        Ecommerce/
+        activate.bat
+        activate.ps1
+        deactivate.bat
+        django-admin.exe
+        easy_install-3.6.exe
+        easy_install.exe
+        pip.exe
+        pip3.6.exe
+        pip3.exe
+        python.exe
+        python36.dll
+        pythonw.exe
+        static_cdn/
+        wheel.exe
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+E:\CodeForEntre\Projects\Ecommerce\EcommerceEnvironment\Scripts>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .gitignore
+        Ecommerce/
+        activate.bat
+        activate.ps1
+        deactivate.bat
+        python36.dll
+        static_cdn/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+E:\CodeForEntre\Projects\Ecommerce\EcommerceEnvironment\Scripts>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .gitignore
+        Ecommerce/
+        static_cdn/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+E:\CodeForEntre\Projects\Ecommerce\EcommerceEnvironment\Scripts>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .gitignore
+        Ecommerce/
+        static_cdn/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+E:\CodeForEntre\Projects\Ecommerce\EcommerceEnvironment\Scripts>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .gitignore
+        Ecommerce/
+        __pycache__/
+        static_cdn/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+E:\CodeForEntre\Projects\Ecommerce\EcommerceEnvironment\Scripts>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .gitignore
+        Ecommerce/
+        __pycache__/
+        activate
+        activate.bat
+        activate.ps1
+        activate_this.py
+        deactivate.bat
+        django-admin.exe
+        django-admin.py
+        easy_install-3.6.exe
+        easy_install.exe
+        pip.exe
+        pip3.6.exe
+        pip3.exe
+        python.exe
+        python36.dll
+        pythonw.exe
+        static_cdn/
+        wheel.exe
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+E:\CodeForEntre\Projects\Ecommerce\EcommerceEnvironment\Scripts>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .gitignore
+        Ecommerce/
+        static_cdn/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+E:\CodeForEntre\Projects\Ecommerce\EcommerceEnvironment\Scripts>
